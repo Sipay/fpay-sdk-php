@@ -5,7 +5,7 @@ namespace PWall\Helper;
 class Constants{
   //API URLS
   const SANDBOX_URL = "https://sandbox.sipay.es/pwall/api/v1/actions";
-  const LIVE_URL    = "https://live.waiap.com/pwall/api/v1/actions";
+  const LIVE_URL    = "https://live.sipay.es/pwall/api/v1/actions";
   const DEVELOP_URL = "https://develop.sipay.es/pwall/api/v1/actions";
 
   const ENVIROMENTS_URLS = [

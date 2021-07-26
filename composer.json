@@ -1,11 +1,11 @@
 {
-  "name": "waiap/pwall-sdk",
+  "name": "sipay/pwall-sdk",
   "description": "SDK to implement payment method 'Payment Wall'",
   "version": "1.0.21",
   "authors": [
     {
-      "name": "Bankia",
-      "email": "integraciones@waiap.es"
+      "name": "Sipay",
+      "email": "integraciones@sipay.es"
     }
   ],
   "require": {
@@ -14,7 +14,7 @@
   },  
   "autoload": {
     "psr-4": {
-      "PWall\\": "waiap/pwall-sdk/lib/"
+      "PWall\\": "sipay/pwall-sdk/lib/"
     }
   }
 }

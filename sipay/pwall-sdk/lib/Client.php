@@ -40,7 +40,7 @@ class Client
   }
 
   /**
-   * Proxy a request to Waiap for process
+   * Proxy a request to Sipay for process
    *
    * @param  \PWall\Request $request 
    * @return \PWall\Response|\PWall\SaleResponse
@@ -81,9 +81,9 @@ class Client
   }
 
   /**
-   * Sets the key that will be used for authentication with Waiap
+   * Sets the key that will be used for authentication with Sipay
    *
-   * @param  \string $key Key provided by Waiap
+   * @param  \string $key Key provided by Sipay
    * @return void
    */
   public function setKey($key){
@@ -91,9 +91,9 @@ class Client
   }
   
   /**
-   * Sets the resource that will be used for authentication with Waiap
+   * Sets the resource that will be used for authentication with Sipay
    *
-   * @param  \string $resource Resource provided by Waiap
+   * @param  \string $resource Resource provided by Sipay
    * @return void
    */
   public function setResource($resource){
@@ -101,9 +101,9 @@ class Client
   }
   
   /**
-   * Sets the secret that will be used for authentication with Waiap
+   * Sets the secret that will be used for authentication with Sipay
    *
-   * @param  \string $secret Secret provided by Waiap
+   * @param  \string $secret Secret provided by Sipay
    * @return void
    */
   public function setSecret($secret){
@@ -111,10 +111,10 @@ class Client
   }
   
   /**
-   * Sets the url where the Waiap Payment Wall will be rendered on to receive 
+   * Sets the url where the Sipay Payment Wall will be rendered on to receive 
    * notifications about payments
    *
-   * @param  \string $backend_url Url where Waiap Payment Wall will be rendered on
+   * @param  \string $backend_url Url where Sipay Payment Wall will be rendered on
    * @return void
    */
   public function setBackendUrl($backend_url){
