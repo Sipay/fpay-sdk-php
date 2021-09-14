@@ -1,7 +1,7 @@
 {
   "name": "sipay/pwall-sdk",
   "description": "SDK to implement payment method 'Payment Wall'",
-  "version": "1.0.21",
+  "version": "2.0.0",
   "authors": [
     {
       "name": "Sipay",
@@ -10,7 +10,7 @@
   ],
   "require": {
       "php": ">=5.3.0",
-      "league/iso3166": "2.1.1"
+      "league/iso3166": "2.1.5"
   },  
   "autoload": {
     "psr-4": {
